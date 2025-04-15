@@ -8,5 +8,5 @@ export default class GameSavingLoader {
     const value = await json(data); // возвращается Promise!
     const result = new GameSaving(value);
     return result;
-  }
+  } 
 }
